@@ -74,6 +74,7 @@ tfenv use 0.12.28
 
 ## 执行Terraform代码生成AWS资源
 ```shell script
+terraform init # 第一次执行需要先初始化
 terraform plan
 terraform apply
 ```
