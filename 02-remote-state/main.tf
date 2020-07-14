@@ -7,7 +7,7 @@ terraform {
 
   backend "s3" {
     bucket         = "xiaopo-terraform-state"
-    key            = "xiaopo_web.tfstate"
+    key            = "remote-state/xiaopo_web.tfstate"
     region         = "ap-southeast-1"
     dynamodb_table = "xiaopo-terraform-state-lock"
   }

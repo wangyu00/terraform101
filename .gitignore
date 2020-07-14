@@ -1,1 +1,5 @@
 .idea
+.terraform
+*.tfstate.lock.info
+terraform.tfstate
+*.tfstate.backup
