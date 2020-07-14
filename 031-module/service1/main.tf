@@ -15,7 +15,7 @@ terraform {
 
 provider "aws" {
   region     = "ap-southeast-1"
-  profile    = "wangyu"
+  profile    = "devops_tw"
 }
 
 module "ec2_for_xiaopo_service_1" {

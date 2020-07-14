@@ -8,7 +8,7 @@ terraform {
 
 provider "aws" {
   region     = "ap-southeast-1"
-  profile    = "wangyu"
+  profile    = "devops_tw"
 }
 
 resource "aws_instance" "web" {
