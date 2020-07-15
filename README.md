@@ -8,7 +8,7 @@ brew install tfenv
 brew list-remote
 
 # 3. 安装terraform
-brew install 0.12.28
+tfenv install 0.12.28
 
 # 4. 设置使用的terraform版本(默认自动切换)
 tfenv use 0.12.28
@@ -70,11 +70,11 @@ tfenv use 0.12.28
     ```
 
 ## 编写Terraform
-
+略
 
 ## 执行Terraform代码生成AWS资源
 ```shell script
-terraform init # 第一次执行需要先初始化
+terraform init # 仅第一次执行需要先初始化
 terraform plan
 terraform apply
 ```
